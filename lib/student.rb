@@ -16,7 +16,7 @@ def self.create_table
     grade INTEGER
   )
 SQL
-DB[:conn].excecute(sql)
+DB[:conn].execute(sql)
 end
 def self.drop_table
   sql = <<-SQL
